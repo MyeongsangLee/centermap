@@ -1,3 +1,8 @@
+console.log("dskjfsdlfjs");
+mapCreate();
+
+
+function mapCreate() {
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
@@ -103,5 +108,7 @@ for (var i = 0; i < arr.length; i++) {
             console.log("지도 검색을 못했습니다.")
         }    
     });    
+
+}
 
 }
